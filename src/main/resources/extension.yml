@@ -1,0 +1,4 @@
+name: StarterExtension
+version: 1.0.0
+main: me.dreamdevs.github.starterextension.StarterExtensionMain
+author: DreamDevs

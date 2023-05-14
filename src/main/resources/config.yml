@@ -1,0 +1,8 @@
+lore-id-text: '&6Starter Item'
+
+starter-items:
+  - IRON_HELMET:1:&cStarter Helmet:&7Pretty good helmet!;&7Beat it!
+  - IRON_CHESTPLATE:1:&cStarter Chestplate:&7Pretty good chestplate!;&7Beat it!
+  - IRON_LEGGINGS:1:&cStarter Leggings:&7Pretty good leggings!;&7Beat it!
+  - IRON_BOOTS:1:&cStarter Boots:&7Pretty good boots!;&7Beat it!
+  - IRON_SWORD:1:&cStarter Sword:&7Pretty good sword!;&7Beat it!
