@@ -1,8 +1,42 @@
 lore-id-text: '&6Starter Item'
 
 starter-items:
-  - IRON_HELMET:1:&cStarter Helmet:&7Pretty good helmet!;&7Beat it!
-  - IRON_CHESTPLATE:1:&cStarter Chestplate:&7Pretty good chestplate!;&7Beat it!
-  - IRON_LEGGINGS:1:&cStarter Leggings:&7Pretty good leggings!;&7Beat it!
-  - IRON_BOOTS:1:&cStarter Boots:&7Pretty good boots!;&7Beat it!
-  - IRON_SWORD:1:&cStarter Sword:&7Pretty good sword!;&7Beat it!
+  ironhelmet:
+    Material: IRON_HELMET
+    ArmorContent: HELMET
+    DisplayName: '&a&lStarter Helmet'
+    DisplayLore:
+      - '&7Pretty good helmet!'
+      - '&7Beat it!'
+  ironchestplate:
+    Material: IRON_CHESTPLATE
+    ArmorContent: CHESTPLATE
+    DisplayName: '&a&lStarter Chestplate'
+    DisplayLore:
+      - '&7The strongest part of armor!'
+      - '&7Beat it!'
+    Enchantments:
+      DURABILITY: 1
+      PROTECTION_ENVIRONMENTAL: 1
+  ironleggings:
+    Material: IRON_LEGGINGS
+    ArmorContent: LEGGINGS
+    DisplayName: '&a&lStarter Leggings'
+    DisplayLore:
+      - '&7Not the strongest, but...'
+      - '&7Beat it!'
+  ironboots:
+    Material: IRON_BOOTS
+    ArmorContent: BOOTS
+    DisplayName: '&a&lStarter Boots'
+    DisplayLore:
+      - '&7You have feet!'
+  sword:
+    Material: IRON_SWORD
+    DisplayName: '&a&lStarter Sword'
+  bread:
+    Material: BREAD
+    Amount: 16
+    DisplayName: '&a&lStarter Bread'
+    DisplayLore:
+      - "&7It's just the bread"

@@ -23,4 +23,11 @@ public class StarterExtensionMain extends Extension {
     public void onExtensionDisable() {
         saveConfig();
     }
+
+    @Override
+    public void reloadConfig() {
+        super.reloadConfig();
+
+        this.starterManager.loadConfig();
+    }
 }
