@@ -1,6 +1,6 @@
-package me.dreamdevs.github.starterextension.listeners;
+package me.dreamdevs.starterextension.listeners;
 
-import me.dreamdevs.github.starterextension.StarterExtensionMain;
+import me.dreamdevs.starterextension.StarterExtensionMain;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
@@ -18,7 +18,7 @@ public class PlayerListeners implements Listener {
 
     @EventHandler
     public void deathEvent(PlayerDeathEvent event) {
-        event.getDrops().removeIf(itemStack -> StarterExtensionMain.getInstance().getStarterManager().isStarterItem(itemStack));
+        event.getDrops().removeIf(StarterExtensionMain.getInstance().getStarterManager()::isStarterItem);
     }
 
     @EventHandler

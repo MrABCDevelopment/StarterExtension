@@ -1,10 +1,10 @@
-package me.dreamdevs.github.starterextension.managers;
+package me.dreamdevs.starterextension.managers;
 
 import lombok.Getter;
 import lombok.NonNull;
-import me.dreamdevs.github.randomlootchest.utils.ColourUtil;
-import me.dreamdevs.github.randomlootchest.utils.Util;
-import me.dreamdevs.github.starterextension.StarterExtensionMain;
+import me.dreamdevs.randomlootchest.utils.ColourUtil;
+import me.dreamdevs.randomlootchest.utils.Util;
+import me.dreamdevs.starterextension.StarterExtensionMain;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;

@@ -6,13 +6,22 @@
 
     <groupId>me.DreamDevs.GitHub</groupId>
     <artifactId>StarterExtension</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 
     <repositories>
         <repository>
@@ -25,7 +34,7 @@
         <dependency>
             <groupId>com.github.MrABCDevelopment</groupId>
             <artifactId>RandomLootChest</artifactId>
-            <version>v1.7.3</version>
+            <version>v1.8.0-BETAv1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

@@ -1,9 +1,9 @@
-package me.dreamdevs.github.starterextension;
+package me.dreamdevs.starterextension;
 
 import lombok.Getter;
-import me.dreamdevs.github.randomlootchest.api.extensions.Extension;
-import me.dreamdevs.github.starterextension.listeners.PlayerListeners;
-import me.dreamdevs.github.starterextension.managers.StarterManager;
+import me.dreamdevs.randomlootchest.api.extensions.Extension;
+import me.dreamdevs.starterextension.listeners.PlayerListeners;
+import me.dreamdevs.starterextension.managers.StarterManager;
 
 @Getter
 public class StarterExtensionMain extends Extension {
