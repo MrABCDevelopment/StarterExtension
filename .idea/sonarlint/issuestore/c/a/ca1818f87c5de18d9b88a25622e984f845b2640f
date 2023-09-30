@@ -1,12 +1,0 @@
-
-d
-java:S1192 "NDefine a constant instead of duplicating this literal ".ArmorContent" 7 times.(ÎÒ‚
-d
-java:S1192 "NDefine a constant instead of duplicating this literal "starter-items" 3 times.(ÎÒ‚
-s	java:S135*"YReduce the total number of break and continue statements in this loop to use at most one.(Ù¿ÎŒşÿÿÿÿ
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‰ëÆÂúÿÿÿÿ
-1
-java:S3626:"Remove this redundant jump.(ÉŠ©ƒ
-N
-java:S1874d"1Remove this use of "getByName"; it is deprecated.(®˜¸™8˜Ğ«Ï“1

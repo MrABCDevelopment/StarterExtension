@@ -2,8 +2,8 @@ package me.dreamdevs.starterextension.managers;
 
 import lombok.Getter;
 import lombok.NonNull;
-import me.dreamdevs.randomlootchest.utils.ColourUtil;
-import me.dreamdevs.randomlootchest.utils.Util;
+import me.dreamdevs.randomlootchest.api.utils.ColourUtil;
+import me.dreamdevs.randomlootchest.api.utils.Util;
 import me.dreamdevs.starterextension.StarterExtensionMain;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
